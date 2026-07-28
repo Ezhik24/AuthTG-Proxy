@@ -49,7 +49,7 @@ public class AuthTGVelocity {
     private final MinecraftChannelIdentifier CHANNEL = MinecraftChannelIdentifier.create("authtg", "main");
 
     @Inject
-    public AuthTGVelocity(ProxyServer server) {   // <-- Больше нет параметра Logger
+    public AuthTGVelocity(ProxyServer server) {
         this.server = server;
     }
 
